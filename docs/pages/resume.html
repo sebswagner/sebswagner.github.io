@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/resume.css">
+
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1 class="site-title"><a href="../index.html">Mia Mohac</a></h1>
+            <h2>Merging artistic vision with technical precision</h2>
+        </div>
+        <div class="header-right">
+            <a class="nav-link" href="../pages/resume.html">Résumé</a>
+            <a class="nav-link" href="../pages/about.html">About me</a>
+            <a class="nav-link" href="../pages/contact.html">Contact</a>
+        </div>
+    </header>
+
+    <div class="small-divider"></div>
+
+    <div class="container">
+        <div>
+            <div class="portfolio-header">
+                <h2>Résumé</h2>
+            </div>
+            <div class="paragraph">
+                <embed src="../files/CV_MiaMohac.pdf" type="application/pdf" class="pdf-viewer">
+                    <br>
+                    <!-- 
+                <iframe src="../files/CV_MiaMohac.pdf" class="pdf-viewer"></iframe>
+                    <br>
+                <object data="../files/CV_MiaMohac.pdf" type="application/pdf" class="pdf-viewer">
+                    <br>
+                    2 Other options and they look the same -->
+
+                    <div class="medium-divider"></div>
+
+                <p class="center">You can download my CV in PDF format by clicking the link below:</p>
+                <a href="../files/CV_MiaMohac.pdf" class="download-link" target="_blank" download>Download CV</a>
+
+                    <div class="big-divider"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    </body>
+
+    <script  src="js/scripts.js">
+        $(document).ready(function() {
+          $('[data-fancybox="gallery"]').fancybox({
+            // Options can be added here
+          });
+        });
+      </script>
+</div>
+</body>
+</html>

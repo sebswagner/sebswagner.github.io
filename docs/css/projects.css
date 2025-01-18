@@ -1,0 +1,60 @@
+/* projects.css */
+p {
+    text-align: justify; /* Ensure paragraphs are justified */
+    line-height: 1.45;
+}
+
+.project-container {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Optional: Center align text and inline elements within the container */
+}
+
+.image-container {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center; /* Center images within the container */
+}
+
+.image-container-projekti img {
+    width: 100%;
+    height: auto;
+}
+
+.split-image-container {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 20px; /* Gap between the two images */
+    margin: 20px 0;
+}
+
+.split-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.split-image {
+    width: 50%;
+    text-align: center;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*         LIST         */
+
+.custom-list {
+    list-style-type: circle; /* Remove default list style */
+    padding-left: 40px; /* Add space for custom bullet */
+}
+
+/* Ensuring images show cursor pointer */
+.clickable-image {
+    cursor: pointer;
+}
